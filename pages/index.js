@@ -1,10 +1,10 @@
-import Auth from "../components/Auth";
+import MainPage from "./main-page";
 import Layout from "../components/Layout";
 
 export default function Home() {
   return (
     <Layout title="Login">
-      <Auth />
+      <MainPage />
     </Layout>
   );
 }
